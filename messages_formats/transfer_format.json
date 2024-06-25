@@ -1,0 +1,7 @@
+{
+    "message_type":"TRANSFER",
+    "request":"the_request",
+    "timestamp":"the_timestamp",
+    "client_id":1,
+    "shard_id":0
+}

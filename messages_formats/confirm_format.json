@@ -1,0 +1,5 @@
+{
+    "message_type":"CONFIRM",
+    "block":"the_block",
+    "node_id":0
+}
