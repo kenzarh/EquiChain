@@ -3,8 +3,6 @@
 This code implements a PBFT-based blockchain that uses the sharing mechanism and randomly assigns the nodes to the different shards.
 Also, the shard to which the new request is sent is randomly chosen.
 
-It does not implement the classification layer and does not use smart contracts.
-
 requirements: scikit-learn==1.2.2
 python version: 3.8.10
 
