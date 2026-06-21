@@ -5,14 +5,14 @@ import random
 import PBFT
 
 global requests_number
-requests_number = 45
+requests_number = 5
 
 global n # number of nodes in the network
 #n = random.randint(4,1000) # To revise: should adapt to the number of launched nodes in the run_PBFT function
 n=21
 #print("n=",n)
 
-w=5 # Waiting time between two requests
+w=1 # Waiting time between two requests
 
 global number_of_validated_requests
 number_of_validated_requests = 0 

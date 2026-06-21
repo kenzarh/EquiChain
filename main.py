@@ -24,13 +24,13 @@ w = settings.w
 #nhn = n-(nfp+nsn+nnrn+nfn+nfrn+nda+nbn) # nhn: number of honest nodes (All the rest nodes are honest nodes)
 
 nfp = 0 # nfp: number of faulty primaries
-nnrn = 0 # nnrn: number of non responding nodes
-nfn = 0 # nfn: number of faulty nodes
-nfrn = 0 # nfrn: number of faulty replies nodes
+nnrn = 1 # nnrn: number of non responding nodes
+nfn = 1 # nfn: number of faulty nodes
+nfrn = 1 # nfrn: number of faulty replies nodes
 nda = 0 # nda: number of dos attackers
-nbn = 0 # nbn: number of byzantine nodes
+nbn = 1 # nbn: number of byzantine nodes
 nsn = 0 # nsn: number of slow nodes
-nhn = n # nhn: number of honest nodes
+nhn = n-nfp-nnrn-nfn-nfrn-nda-nbn-nsn # nhn: number of honest nodes
 
 # Define the nodes we want in our network + their starting time + their type
 nodes={} # This is a dictionary of nodes we want in our network. Keys are the nodes types, and values are a list of tuples of starting time and number of nodes 
