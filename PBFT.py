@@ -691,7 +691,8 @@ class Node():
                         # Wait to receive N/2 similar confirm messages to add the new block to the local blockchain
 
                         global consensus_nodes
-                        F_prime = (len(consensus_nodes)-1)//2
+                        #F_prime = (len(consensus_nodes)-1)//2
+                        F_prime = 2*((len(consensus_nodes) - 1)//3) + 1
 
                         if (block_hash not in self.confirm_per_block):
                                 self.confirm_per_block[block_hash] = 1
