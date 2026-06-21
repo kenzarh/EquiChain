@@ -150,18 +150,4 @@ To reproduce the results:
 3. Execute `python main.py`.
 4. Collect generated metrics and logs.
 
----
 
-## Limitations
-
-This prototype is intended for research and experimentation.
-
-Current limitations include:
-
-* Single-machine deployment
-* Limited-scale evaluation
-* No WAN deployment
-* No smart-contract layer
-* No production-grade networking stack
-
-These limitations do not affect the evaluation of the proposed classification, sharding, and consensus mechanisms but leave room for future extensions.
